@@ -64,3 +64,34 @@ a{
     padding: 27px 30px;
 
 }
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: normal;
+    font-style: normal;
+
+
+    
+}
+
+/* footer part */
+.foot-items{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-icon i{
+    color: lightgrey;
+    background-color: gray;
+    margin-right: 14px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 5px;
+    justify-content: center;
+
+}
