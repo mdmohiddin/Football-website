@@ -1,0 +1,66 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.copa-america{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 230px;
+    margin-left: 150px;
+    margin-bottom: 
+    }
+a{
+    color: white;
+    background: #E02C6D;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.container{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+}
+
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-right: 140px;
+    margin-left: 50px; 
+    margin-bottom: 86px;
+}
+
+/* --------------
+   players detals
+   -------------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 210px;
+    margin-left: 180px;
+    margin-top: 70px;
+    margin-bottom: 165px;
+    background: #FFFFFF;
+}
+
+.player img{
+    Width: 300px;
+    Height: 256px;
+}
+.player{
+    box-sizing: border-box;
+    Width: 330px;
+    Height: 474px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding: 27px 30px;
+
+}
